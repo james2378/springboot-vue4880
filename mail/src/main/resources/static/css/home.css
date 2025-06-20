@@ -1,0 +1,89 @@
+.up {
+    position: relative;
+    padding-left: 100px;
+    height: 138px;
+    margin-top: 7px;
+}
+
+.middle {
+    position: relative;
+    padding-left: 100px;
+    height: 338px;
+    margin-top: 7px;
+}
+
+.headimg {
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: 16px;
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.info {
+    padding-top: 18px;
+    margin-left: 20px;
+    outline: 0;
+
+    position: relative;
+    height: 24px;
+    font-size: 16px;
+    line-height: normal;
+
+}
+
+.menu1 {
+    height: 85px;
+    margin-left: 20px;
+    margin-top: 25px;
+
+}
+
+.mailInfo-list {
+    list-style: none;
+}
+
+.mail_component {
+    /*float: left;*/
+    width: 60px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    outline: 0;
+    /*margin: 0 10px;*/
+}
+
+i {
+    color: #999;
+}
+
+.title {
+    color: #999;
+    line-height: normal;
+    margin-top: 5px;
+    font-size: 12px;
+    margin-left: -8px;
+}
+
+.show_home {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#i {
+    width: 290px;
+    height: 230px;
+    float: left;
+}
+
+#p {
+    font-family: Arial, "微软雅黑", "Microsoft Yahei";
+    margin: 80px 0 0 328px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 34px;
+}

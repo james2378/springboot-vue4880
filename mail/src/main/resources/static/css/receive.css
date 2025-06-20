@@ -1,0 +1,11 @@
+.header-mail {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#body_content .content {
+    float: left;
+    margin-left: 5px;
+    width: 100%;
+    /*height: 60%;*/
+}

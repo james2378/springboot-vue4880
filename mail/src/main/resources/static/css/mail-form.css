@@ -1,0 +1,139 @@
+.mail_form {
+    width: 100%;
+    height: 800px;
+    background: -webkit-linear-gradient(#EFF3F4, white); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#EFF3F4, white); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#EFF3F4, white); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#EFF3F4, white); /* 标准的语法（必须放在最后） */
+}
+
+.header_page {
+    /*background: #EFF3F4;*/
+    float: left;
+    width: 100%;
+    height: 177px;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    height: 50%;
+    /*margin-top: 200px;*/
+}
+
+.editor-form {
+    width: 100%;
+    height: 100%;
+}
+
+.foot_page {
+    float: left;
+    margin-top: 150px;;
+}
+
+.button_page {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.mail_header {
+    padding: 0px 18px 8px;
+    margin-top: 10px;
+    height: 138px;
+}
+
+.mail_title {
+    padding-top: 6px;
+    font-size: 15px;
+    margin-right: 12px;
+    font-weight: 700;
+}
+
+.desc {
+    color: #999;
+    line-height: normal;
+    margin-left: -40px;
+    height: 84px;
+}
+
+#mail_desc {
+    list-style: none;
+    margin-top: 20px;
+    height: 100%;
+}
+
+#mail_desc li {
+    margin-top: 10px;
+    height: 15%;
+}
+
+.item_title {
+    float: left;
+    /*width: 10%;*/
+}
+
+.item_content {
+    float: left;
+    color: #6C6969;
+    margin-left: 10px;
+    background-color: #D5E1EC;
+    /*width: 100%;*/
+    /*height: 500px;*/
+    /*padding-top: 1px;*/
+    /*padding-bottom: 3px;*/
+
+}
+
+.item_content input {
+    outline: none;
+    background-color: #EFF3F4;
+    border: none;
+    border-style: none;
+    outline: medium;
+}
+
+.item_content input:focus {
+    outline: none;
+    background-color: #EFF3F4;
+}
+
+.item_content_date {
+    float: left;
+    /*width: 90%;*/
+    margin-left: 10px;
+}
+
+.attach {
+    /*background: #F2F5F9;*/
+    width: 100%;
+    height: 228px;
+    border-color: #D7DFEB;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.attach_title i {
+    color: #6C6969;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.attach_title span {
+    font-weight: bold;
+
+}
+
+.attach_list {
+    float: left;
+    /*margin-top: 20px;*/
+    margin-left: 30px;
+    width: 120px;
+    height: 160px;
+}
+
+.attach_list:hover {
+    background-color: #D5E1EC;
+    border: 0.5px solid #9BB4C8;
+}
+

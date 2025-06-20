@@ -1,0 +1,9 @@
+.main_menu {
+    color: rgb(106, 106, 106);
+    text-decoration: none;
+}
+
+#header_menu .select .main_menu {
+    color: white;
+    font-weight: bold;
+}

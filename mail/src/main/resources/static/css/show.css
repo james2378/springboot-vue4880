@@ -1,0 +1,119 @@
+
+.header_page {
+    background: #EFF3F4;
+    width: 100%;
+    height: 177px;
+}
+
+.button_page {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.mail_header {
+    padding: 0px 18px 8px;
+    margin-top: -10px;
+    height: 138px;
+}
+
+.mail_title {
+    padding-top: 6px;
+    font-size: 15px;
+    margin-right: 12px;
+    font-weight: 700;
+}
+
+.desc {
+    color: #999;
+    line-height: normal;
+    margin-left: -40px;
+    height: 84px;
+}
+
+#mail_desc {
+    list-style: none;
+    margin-top: 20px;
+    height: 100%;
+}
+
+#mail_desc li {
+    margin-top: 10px;
+    height: 20%;
+}
+
+.item_title {
+    float: left;
+    /*width: 10%;*/
+}
+
+.item_content {
+    float: left;
+    /*width: 90%;*/
+    color: #6C6969;
+    margin-left: 10px;
+    background-color: #D5E1EC;
+    border-color: #9BB4C8;
+    border-radius: 17px;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+
+}
+
+.item_content_date {
+    float: left;
+    /*width: 90%;*/
+    margin-left: 10px;
+}
+
+.attach {
+    background: #F2F5F9;
+    width: 100%;
+    height: 228px;
+    border-color: #D7DFEB;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.attach_title i {
+    color: #6C6969;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.attach_title span {
+    font-weight: bold;
+
+}
+
+.attach_list {
+    float: left;
+    /*margin-top: 20px;*/
+    margin-left: 30px;
+    width: 120px;
+    height: 160px;
+}
+
+.attach_list:hover {
+    background-color: #D5E1EC;
+    border: 0.5px solid #9BB4C8;
+}
+
+/*.attach_list span{*/
+/**/
+/*}*/
+.attach_list .attach_item_image {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.attach_list .attach_item_title {
+    text-align: center;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: "Microsoft Yahei", Verdana;
+}

@@ -1,0 +1,23 @@
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates
+  resources:
+    static-locations: classpath:/static/,classpath:/ueditor/,file:${test.attach}
+  http:
+    multipart:
+      max-file-size: 100Mb
+      max-request-size: 100Mb
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mail?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    #    org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    #    org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    show-sql: true
+test.host: jit.com
